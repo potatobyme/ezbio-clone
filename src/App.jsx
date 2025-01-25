@@ -159,16 +159,7 @@ function App() {
           <h1 className='name'>potato.service</h1>
           <h1 className='bio'>{bio}</h1> {/* Bio with typewriter effect */}
         </div>
-        <div className='links'>
-          <a href="https://github.com/movemented" target="_blank" rel="noopener noreferrer">
-            <img src={git} className='link2' alt="GitHub" />
-          </a>
-          <a href="https://www.instagram.com/movemented/" target="_blank" rel="noopener noreferrer">
-            <img src={insta} className='link3' alt="Instagram" />
-          </a>
-          <a href="https://www.youtube.com/channel/UCbrSndkaflZIa6HaCBHLRvA" target="_blank" rel="noopener noreferrer">
-            <img src={yt} className='link4' alt="YouTube" />
-          </a>
+        <div className='links'></div>
           <a href="https://discord.gg/ahzRFcbDaU" target="_blank" rel="noopener noreferrer">
             <img src={discord} className='link5' alt="Discord" />
           </a>
