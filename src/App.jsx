@@ -160,9 +160,6 @@ function App() {
           <h1 className='bio'>{bio}</h1> {/* Bio with typewriter effect */}
         </div>
         <div className='links'>
-          <a href="https://twitter.com/2HB2QedJXb7055" target="_blank" rel="noopener noreferrer">
-            <img src={twitter} className='link1' alt="Twitter" />
-          </a>
           <a href="https://github.com/movemented" target="_blank" rel="noopener noreferrer">
             <img src={git} className='link2' alt="GitHub" />
           </a>
