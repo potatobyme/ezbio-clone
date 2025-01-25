@@ -25,7 +25,7 @@ function App() {
   const [entered, setEntered] = useState(false); // State for animation
 
   // Typewriter effect
-  const [bioText, setBioText] = useState("Owner of shdw.site");
+  const [bioText, setBioText] = useState("Owner of blue.potato-service.se");
   const [index, setIndex] = useState(0);
   const [isTyping, setIsTyping] = useState(true);
 
@@ -197,14 +197,14 @@ function App() {
         <div className='div2'></div>
         <button
           className='button2'
-          onClick={() => handleCopyAddress1('ltc1qwu5kth29x3ev63fuex4ln873kdwdxdnvw0fvdq', 'LTC Address')}
+          onClick={() => handleCopyAddress1('ltc1qmy3jffpmvhl7wav64nhx0jweg6jyfsm5peq50z', 'LTC Address')}
           data-label={cssLabel1}
         >
           LTC
         </button>
         <button
           className='button1'
-          onClick={() => handleCopyAddress('bc1qmdde26zln58kprcz2fxf7980ad9jfnpxa7ev4p', 'BTC Address')}
+          onClick={() => handleCopyAddress('bc1q9gs5ffj9z7f3k4ezj06jl3kusu7aaf35dh9jxz', 'BTC Address')}
           data-label={cssLabel}
         >
           BTC
